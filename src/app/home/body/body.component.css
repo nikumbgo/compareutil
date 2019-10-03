@@ -1,0 +1,19 @@
+.body1{
+    display: grid;
+   /*  grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 10px;
+    height: 400px;
+   /*  grid-auto-rows: minmax(100px, auto); */
+}
+
+.left
+ {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    border: 1px solid #c0b0b0 ;
+  }
+  .right { 
+    grid-column: 2 / 2;
+    grid-row: 1;
+    border: 1px solid #c0b0b0 ;
+  }
